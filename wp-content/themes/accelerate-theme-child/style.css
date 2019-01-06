@@ -9,6 +9,7 @@ Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  accelerate-theme-child
 */
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
@@ -18,13 +19,15 @@ Text Domain:  accelerate-theme-child
 .button {
     background: #45ac9d;
 }
+
+/* Blog styles */
 .blog-post {
     width: 50%;
     float: left;
     margin-bottom: 2em;
 }
 .blog-post h4 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font: 700 1em/1.75 'Open Sans', sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
     margin: 2em 0 .5em;
@@ -36,5 +39,42 @@ Text Domain:  accelerate-theme-child
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
-	text-transform: uppercase;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+/* Case study styles - left side */
+aside.case-study-sidebar {
+    float: left;   
+    width: 300px;
+    padding-top: 130px;
+}
+h2.case-study-title {
+    font: 600 1.56em/2.1875em 'Open Sans', sans-serif;
+    margin: 0;
+}
+h4.case-study-skills {
+    font: 400 .875em/1.625em 'Open Sans', sans-serif;
+    color: #878787;
+    margin: 0;
+    padding-bottom: 10px;
+}
+aside span {
+    color: #2b2b2b;
+    font-size: .875em;
+    margin: 0;
+}
+.main-content {
+    padding: 0;
+    margin: 0;
+}
+
+/* Case study styles - right side */
+div.case-study-images {
+    float: right;
+    width: 600px;
+    padding: 4.75em 0 0 7%;
+}
+div.case-study-images img {
+    padding-bottom: 45px;
 }
