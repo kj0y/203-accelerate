@@ -20,6 +20,43 @@ Text Domain:  accelerate-theme-child
     background: #45ac9d;
 }
 
+/* Front-page styles */
+section.featured-work {
+    text-align: center;
+    height: 50%;
+    width: auto;
+    align-content: center;
+}
+section.featured-work h4 {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-transform: uppercase;
+    height: 75px;
+    margin: 0;
+}
+section.featured-work h3 {
+    display: flex;
+    font: 600 1.03em/1.75em 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+ul.homepage-featured-work {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li.individual-featured-work {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+}
+
 /* Blog styles */
 .blog-post {
     width: 50%;
@@ -43,15 +80,17 @@ Text Domain:  accelerate-theme-child
     padding-top: 10px;
 }
 
-/* Case study styles - left side */
+/* Case study styles */
+    /** Case study styles - left side **/
 aside.case-study-sidebar {
     float: left;   
-    width: 300px;
-    padding-top: 130px;
+    width: 350px;
+    padding-top: 90px;
 }
 h2.case-study-title {
     font: 600 1.56em/2.1875em 'Open Sans', sans-serif;
     margin: 0;
+    padding-top: 20px;
 }
 h4.case-study-skills {
     font: 400 .875em/1.625em 'Open Sans', sans-serif;
@@ -64,12 +103,8 @@ aside span {
     font-size: .875em;
     margin: 0;
 }
-.main-content {
-    padding: 0;
-    margin: 0;
-}
 
-/* Case study styles - right side */
+    /** Case study styles - right side **/
 div.case-study-images {
     float: right;
     width: 600px;
@@ -77,4 +112,13 @@ div.case-study-images {
 }
 div.case-study-images img {
     padding-bottom: 45px;
+    width: 100%;
+    height: auto;
 }
+
+/* Case style archive styles */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
