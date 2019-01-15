@@ -122,3 +122,20 @@ div.case-study-images img {
     clear: both;
     display: table;
   }
+
+/* Footer styles */
+.site-footer span {
+    display: none;
+}
+.menu-social-media-nav-container {
+    display: inline-flex;
+    justify-content: space-between;
+}
+li {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+}  
+.menu-item img {
+    margin: 2px;
+}
