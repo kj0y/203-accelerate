@@ -26,13 +26,14 @@ section.featured-work {
     height: 50%;
     width: auto;
     align-content: center;
+    margin-bottom: 35px;
 }
 section.featured-work h4 {
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     text-transform: uppercase;
-    height: 75px;
+    height: 125px;
     margin: 0;
 }
 section.featured-work h3 {
@@ -138,4 +139,7 @@ li {
 }  
 .menu-item img {
     margin: 2px;
+}
+#primary {
+    margin: 0;
 }
