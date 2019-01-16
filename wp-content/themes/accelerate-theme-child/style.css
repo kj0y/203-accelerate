@@ -140,6 +140,6 @@ li {
 .menu-item img {
     margin: 2px;
 }
-#primary {
-    margin: 0;
+.home #primary {
+    margin-bottom: 0;
 }
