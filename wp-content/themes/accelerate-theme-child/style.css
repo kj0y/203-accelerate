@@ -140,9 +140,27 @@ div.case-study-images img {
 }
 
 /* About page styles */
-.header-image {
-    width: 100;
+.header-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    line-height: 1.7em;
+    font-size: 1.25em;
+}
+.header-image img {
+    width: 100%;
     height: auto;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 550px;
+}
+.header-text {
+    position: 
 }
 .intro-header {
     text-transform: uppercase;
