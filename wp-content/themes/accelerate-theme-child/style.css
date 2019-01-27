@@ -10,6 +10,7 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
+/* Front-page styles */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
@@ -22,8 +23,6 @@ Text Domain:  accelerate-theme-child
 .home #primary {
     margin-bottom: 0;
 }
-
-/* Front-page styles */
 section.featured-work {
     text-align: center;
     height: 50%;
@@ -61,6 +60,38 @@ li.individual-featured-work {
     list-style-type: none;
 }
 
+    /* Front page - Blog post section styles */
+    #main > section.recent-posts > div > div.blog-post {
+        width: 45%;
+        margin-right: 10%;
+    }
+
+    /* Front page - Twitter widget styles */
+    #main > section.recent-posts > div > h3 {
+        font: 700 1em/1.75 'Open Sans', sans-serif;
+        color: #a6a6a6;
+        text-transform: uppercase;
+        width: 45%;
+        float: right;
+        padding-bottom: 40px;
+    }
+    .twitter-handle {
+        font-size: 1.5em;
+    }
+    #ctf .ctf-item {
+        padding-top: 0px;
+    }
+    .follow-us-link {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        color: #45ac9d;
+        text-transform: uppercase;
+        padding: 10px 0 0 5px;
+        width: 45%;
+        float: right;
+    }
+    
+
 /* Blog styles */
 .blog-post {
     width: 50%;
@@ -86,46 +117,46 @@ li.individual-featured-work {
 
 /* Case study styles */
     /** Case study styles - left side **/
-aside.case-study-sidebar {
-    float: left;   
-    width: 350px;
-    padding-top: 90px;
-}
-h2.case-study-title {
-    font: 600 1.56em/2.1875em 'Open Sans', sans-serif;
-    margin: 0;
-    padding-top: 20px;
-}
-h4.case-study-skills {
-    font: 400 .875em/1.625em 'Open Sans', sans-serif;
-    color: #878787;
-    margin: 0;
-    padding-bottom: 10px;
-}
-aside span {
-    color: #2b2b2b;
-    font-size: .875em;
-    margin: 0;
-}
+    aside.case-study-sidebar {
+        float: left;   
+        width: 350px;
+        padding-top: 90px;
+    }
+    h2.case-study-title {
+        font: 600 1.56em/2.1875em 'Open Sans', sans-serif;
+        margin: 0;
+        padding-top: 20px;
+    }
+    h4.case-study-skills {
+        font: 400 .875em/1.625em 'Open Sans', sans-serif;
+        color: #878787;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    aside span {
+        color: #2b2b2b;
+        font-size: .875em;
+        margin: 0;
+    }
 
-/** Case study styles - right side **/
-div.case-study-images {
-    float: right;
-    width: 600px;
-    padding: 4.75em 0 0 7%;
-}
-div.case-study-images img {
-    padding-bottom: 45px;
-    width: 100%;
-    height: auto;
-}
+    /** Case study styles - right side **/
+    div.case-study-images {
+        float: right;
+        width: 600px;
+        padding: 4.75em 0 0 7%;
+    }
+    div.case-study-images img {
+        padding-bottom: 45px;
+        width: 100%;
+        height: auto;
+    }
 
-/* Case style archive styles */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+    /* Case style archive styles */
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 
 /* Contact page styles */
 #nf-field-4 {
@@ -252,4 +283,18 @@ li {
     float: right;
     background-color: #45ac9d;
     color: white;
+}
+
+/* Sidebar styles */
+#mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(2) > input[type="submit"] {
+    background: #45ac9d; 
+    padding: 5%;
+}
+#mc4wp_form_widget-2 {
+    border-bottom: 1px solid #BFBFBF;
+    padding: 1.75em 1.8em;
+    font: 700 1em/1 'Montserrat', 'OpenSans', Arial, sans-serif;
+	color: #fff;
+	border: none;
+	padding: 1em 3.75em;
 }

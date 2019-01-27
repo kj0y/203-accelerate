@@ -56,7 +56,17 @@ get_header(); ?>
 				<?php endwhile; ?> 
 			<?php wp_reset_query(); ?>
  		</div>
-	</div>	
+	
+
+		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+		<h3 class="widget-title">Recent Tweet</h3>
+		<div id="secondary" class="widget-area" role="complementary">
+			<?php dynamic_sidebar( 'sidebar-2' ); ?>
+		<h4 class="follow-us-link"><a href="https://twitter.com/kandisjoy">Follow Us ›</a></h4>
+
+		</div>
+		<?php endif; ?>
+	</div>
 </section>
 
 <?php get_footer(); ?>
